@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Heroe</title>
+    <link rel="stylesheet" href="css/new-hero.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="descuento">
+            <p>Descuentos 20% </p>
+        </div>
+        <header><a href="index.html"><img src="img/logo 1.png" alt=""></a>
+            <h1>Card Superhéroes</h1>
+        </header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+        <div class="new-hero">
+            <h3 class="title-new-Hero">Añadir tu super!</h3>
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+            <form action="" method="post">
+                <div class="column-form1">
+                    <label class="nombre" for="nombre">Nombre</label>
+                    <input class="insert-info " type="text" id="nombre" value="name" placeholder="Gabriela">
+                    <label for="fecha">Fecha</label>
+                    <input class="insert-info" type="date" id="fecha">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+                </div>
+                <div class="column-form2">
+                    <label for="especie">Especie</label>
+                    <select name="" id="" class="insert-info">
+                        <option value="humano">Humano</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                    <label for="foto">Agregar foto</label>
+                    <input class="insert-info" type="file" id="foto" accept=".png, .jpg, .pdf">
+                    <input type="checkbox" name="poderes" id="volar"> <label for="volar">volar</label> <br>
+                    <input type="checkbox" name="poderes" id="inteligencia"> <label
+                        for="inteligencia">Super-inteligencia</label><br>
+                    <input type="checkbox" name="poderes" id="laser"> <label for="laser">Vista de rayo láser</label><br>
+                    <input type="checkbox" name="poderes" id="billetera"> <label for="billetera">Billetera
+                        gorda</label><br>
+                    <hr>
+                    <h4>Tipo de personaje</h4>
+                    <input type="radio" name="t-personaje" value="Heroe/Heroina" id="Heroe-Heroina"> <label
+                        for="Heroe-Heroina">Heroe/Heroina</label><br>
+                    <input type="radio" name="t-personaje" value="Villan@" id="Villan@"> <label
+                        for="Villan@">Villano/Villana</label><br>
+                </div>
+
+
+            </form>
+            <div class="button-container">
+                <!-- Funcionalidad submit omitida por ahora puesto que 
+                 solo esta redirigiendo al index de manera provisional -->
+                <a href="./index.html"><button>Añadir</button></a>
+            </div>
+        </div>
+        <footer>Todos los derechos reservados FRONT-END1</footer>
+    </body>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+@import url("style.css");
+/* Clase login hace referencia al div contenedor del login */
+.login {
+  padding-top: 5%;
+  height: 470px;
+  width: 350px;
+  margin: auto;
+}
+
+.login h3 {
+  padding-bottom: 20px;
+  margin-left: 5%;
+  color: #333333;
+  font-weight: bold;
+  font-size: 45px;
+}
+.login input {
+  width: 90%;
+  height: 45px;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.login select {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.login textarea {
+  width: 90%;
+  height: 45px;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-top: 10px;
+}
+form p {
+  padding: 20px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  padding-right: 5px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* clase log para el input de value "Enviar" */
+
+.log {
+  background: #1cd1b0;
+  border: 0;
+  border-radius: 23px;
+  font-size: 17px;
+  font-weight: 700;
+  width: 90%;
+  height: 45px;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.log > a {
+  color: #000000;
+  position: relative;
+  top: 10px;
+}
+
+input.group-reset-send {
+  height: 45px;
+  width: 45%;
+  margin-left: 1px;
+  border-radius: 23px;
+  border: 0;
+}
+input.send-color {
+  background: #1cd1b0;
+  font-size: 18px;
+}
+input.reset {
+  background: #888888;
+  font-style: normal;
+  font-size: 18px;
+}
+div.btn-group {
+  text-align: center;
+}

@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.descuento {
+  background-color: #1cd1b0;
+  color: #000000;
+}
+header {
+  background-color: #00669f;
+  color: #ffffff;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+header h1 {
+  display: inline-block;
+}
+header img {
+  padding-left: 5px;
+  height: 50px;
+}
+nav {
+  text-align: right;
+  background: #001d2d;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 2px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+section {
+  display: flex;
+  /* flex-direction: column;*/
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 19px 19px 0px 0px;
+  height: 600px;
+  width: 350px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 1px 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 10px;
+}
+div.bg {
+  border-radius: 19px 19px 0px 0px;
+  height: 350px;
+  width: 100%;
+  /* background-image: url(../img/bg-batman.jpg); */
+}
+div.bg-batman {
+  background-image: url(../img/bg-batman.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.bg-ww {
+  background-image: url(../img/bg-wonderw.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.bg-sp {
+  background-image: url(../img/bg1.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card p {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 150px;
+  width: 300px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.card div img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.card-content {
+  text-align: center;
+  height: 350px;
+}
+.card-content img {
+  position: relative;
+  top: -90px;
+}
+
+.btn {
+  height: 20px;
+  width: 100px;
+  padding: 15px 60px;
+  background-color: #00669f;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-content p,
+.card-content-position {
+  position: relative;
+  top: -75px;
+}
+footer {
+  background-color: #00669f;
+  color: #ffffff;
+  line-height: 3;
+  text-align: center;
+}
+.fa-heart {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: #cc2424;
+}
+.fa-plus-circle {
+  color: #00669f;
+  font-size: 45px;
+  position: fixed;
+  right: 25px;
+  top: 520px;
+}
+.fa-plus-circle:hover {
+  color: #000000;
+  font-size: 47px;
+}
+
+.harley-page {
+  background: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*  ESTA CLASE  card-page ES PARA UTILIZAR EN LAS CARDS DE LAS PAGINAS DE CADA SUPER HEROE*/
+.card-page {
+  margin-top: 60px;
+
+  background: #f3f3f3;
+  text-align: center;
+  height: 476px;
+  width: 300px;
+  border-radius: 45px;
+  padding: 10px;
+  position: relative;
+}
+.card-page .img-profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+}
+.heart-page-card {
+  position: absolute;
+}
+.card-page h3 {
+  color: #2c0187;
+  position: absolute;
+}
+.card-page p {
+  text-align: justify;
+  font-size: 15px;
+  /* position:absolute; */
+}
+.card-page .guns {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.card-page .guns img {
+  height: 35px;
+  position: absolute;
+}
+.footer-card-page {
+  width: 300px;
+  background: #2c0187;
+  border-radius: 0px 0px 45px 45px;
+  height: 50px;
+  position: absolute;
+  bottom: -10px;
+  padding-top: 4%;
+  margin: auto;
+}
+.footer-card-page a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.card-page p span {
+  color: #2c0187;
+}

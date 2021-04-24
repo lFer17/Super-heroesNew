@@ -1,0 +1,80 @@
+@import url("style.css");
+
+.new-hero {
+  border-radius: 43px;
+  width: 80%;
+  margin: auto;
+  padding: 20px 50px;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  background: #00669f;
+  color: blanchedalmond;
+}
+.new-hero p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.new-hero h4 {
+  padding-top: 10px;
+}
+
+.column-form1,
+.column-form2 {
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+}
+.column-form1 input,
+.column-form2 input {
+  display: block;
+  outline: none;
+}
+
+.insert-info {
+  display: block;
+  width: 95%;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.column-form1 input[type="text"] {
+  position: relative;
+  top: -26px;
+}
+.nombre {
+  /* font-size: 100px; */
+  position: relative;
+  top: -26px;
+}
+.title-new-Hero {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.button-container button {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #1cd1b0;
+}
+.button-container button:hover {
+  background-color: black;
+  color: #1cd1b0;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  display: inline-block;
+  margin-top: 10px;
+}
